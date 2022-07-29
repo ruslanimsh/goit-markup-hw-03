@@ -292,6 +292,7 @@ body{
     gap: 30px;
 }
 .work-item{
+    width: calc((100% - 60px) / 3);
     border-bottom: 1px solid #EEEEEE;
 }
 .work .titel{
@@ -307,6 +308,12 @@ body{
 .work-main{
     margin-top: 0;
     margin-bottom: 0;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+.work-titel{
+    padding-left: 24px;
+    margin-bottom: 4px;
 }
 
 /* footer */
@@ -316,7 +323,8 @@ body{
     background-color: #2F303A; 
 }
 address{
-    padding-top: 20px;
+    
+   margin-top: 20px;
 }
 .adres{
     
@@ -329,4 +337,11 @@ address{
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     text-decoration: none;
+}
+
+.contact-fotter{
+    margin-top: 9px;
+}
+.info-item{
+    margin-bottom: 9px;
 }
