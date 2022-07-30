@@ -290,7 +290,7 @@ body{
 }
 .work-item{
     width: calc((100% - 60px) / 3);
-    border-bottom: 1px solid #EEEEEE;
+    border: 1px solid #EEEEEE;
 }
 .work .titel{
     color: var(--titel-text-color);
@@ -309,6 +309,7 @@ body{
 }
 .work-title{
 padding: 20px 24px;
+
 }
 
 /* footer */
